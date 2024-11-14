@@ -1,0 +1,5 @@
+{
+  "livePreview.defaultPreviewPath": "/app/build/index.html",
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "livePreview.debugOnExternalPreview": true
+}

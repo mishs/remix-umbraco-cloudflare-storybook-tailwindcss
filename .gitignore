@@ -1,2 +1,13 @@
+<<<<<<< HEAD
 node_modules/
+=======
+node_modules
+
+/.cache
+/build
+.env
+.dev.vars
+
+.wrangler
+>>>>>>> 16b1e0e0c92b75435d079bb6d66687d82b29c5a6
 node_modules

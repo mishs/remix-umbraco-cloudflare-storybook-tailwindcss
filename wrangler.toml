@@ -1,0 +1,16 @@
+name = "remix-umbraco-cloudflare-storybook-tailwindcss"
+
+[vars]
+TODO_LIST = "TODO_LIST"
+
+[[kv_namespaces]]
+binding = "TODO_LIST"
+id = "72e8ed0d83a64a5597ba21da5cf0079c"
+preview_id = "your-preview-id"
+
+[build]
+outputs = ["./dist"]
+command = "npx remix run build"
+
+[dev-server]
+port = 3000

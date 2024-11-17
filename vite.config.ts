@@ -25,4 +25,24 @@ export default defineConfig({
     }),
     tsconfigPaths(),
   ],
+  // Add Cloudflare worker environment simulation
+  worker: {
+    format: 'es',
+    plugins: () => []
+  },
+  // Enable source maps for better debugging
+  build: {
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        format: 'es',
+        inlineDynamicImports: true
+      }
+    }
+  },
+  // Add environment variables that match Cloudflare's
+  define: {
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+    'process.env.CLOUDFLARE_WORKER': JSON.stringify(true)
+  }
 });

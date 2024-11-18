@@ -1,1 +1,6 @@
 Shortcut to switch tabs - Cmd + Opt + Left/Right
+
+https://developers.cloudflare.com/pages/functions/bindings/
+In wrangler.toml, - where do I find the needed preview_id?
+From start to end how wrangler data addition and interaction flows.
+- KV (assuming db) vs Umbraco (assuming CMS) that can have data we deploy added there. (ASK AI first)
